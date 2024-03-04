@@ -8,6 +8,16 @@
     width: 74px;
   }
 
+  .certificate-logo{
+    overflow-x: auto;
+    overflow-y: auto;
+    
+  }
+
+  .certificate-logo::-webkit-scrollbar{
+    width: 0;
+  }
+
   .navbar-brand span {
     font-weight: bold;
     font-size: 24px;
@@ -30,7 +40,7 @@
   }
 
   .slider_section {
-    padding: 75px 0;
+    /* padding: 75px 0; */
   }
 
 
@@ -61,6 +71,11 @@
 }
 
 @media (max-width: 576px) {
+
+  .certificate-logo{
+    width: 470px;
+  }
+
   .header_section .header_top .contact_nav a span {
     display: none;
   }
@@ -88,6 +103,9 @@
 }
 
 @media (max-width: 480px) {
+
+  
+
   .slider_section .detail-box h1 {
     font-size: 2rem;
   }
@@ -106,6 +124,15 @@
     margin-top: 10px;
   }
   
+}
+
+@media (max-width: 486px) {
+
+  .navbar-brand span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+  }
 }
 
 @media (max-width: 420px) {
