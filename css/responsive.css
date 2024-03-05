@@ -73,7 +73,8 @@
 @media (max-width: 576px) {
 
   .certificate-logo{
-    width: 392px;
+    width: 359px;
+    height: 177px;
   }
 
   .header_section .header_top .contact_nav a span {
