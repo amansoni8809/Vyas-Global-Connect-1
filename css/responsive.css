@@ -1,0 +1,432 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+  .logo{
+    width: 74px;
+  }
+
+  .certificate-logo{
+    overflow-x: auto;
+    overflow-y: auto;
+    
+  }
+
+  .certificate-logo::-webkit-scrollbar{
+    width: 0;
+  }
+
+  .navbar-brand span {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+  }
+
+  .hero_area {
+    min-height: 240px;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section {
+    /* padding: 75px 0; */
+  }
+
+  .layout_padding {
+    padding: 330px 0;
+  }
+
+  .image-loop {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 60vh;
+    animation: animate 14s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+  0%{
+      background-image: url(/images/2.jpg);
+  }
+  30%{
+      background-image: url(/images/6.jpg);
+  }
+  50%{
+      background-image: url(/images/8.jpg);
+  }
+  70%{
+      background-image: url(/images/10.jpg);
+  }
+  80%{
+      background-image: url(/images/11.jpg);
+  }
+  90%{
+      background-image: url(/images/12.jpg);
+  }
+  100%{
+      background-image: url(/images/13.jpg);
+  }
+  
+}
+
+
+}
+
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-top: 45px;
+  }
+
+  .contact_section {
+    padding-bottom: 0;
+  }
+
+  .contact_section .heading_container {
+    padding-left: 15px;
+  }
+
+  .contact_section .map_container {
+    margin-top: 45px;
+  }
+
+  .contact_section .form_container {
+    padding: 0 15px;
+    margin: 0;
+  }
+
+  .layout_padding {
+    padding: 110px 0;
+  }
+
+  .image-loop {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 33vh;
+    animation: animate 14s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+  0%{
+      background-image: url(/images/2.jpg);
+  }
+  30%{
+      background-image: url(/images/6.jpg);
+  }
+  50%{
+      background-image: url(/images/8.jpg);
+  }
+  70%{
+      background-image: url(/images/10.jpg);
+  }
+  80%{
+      background-image: url(/images/11.jpg);
+  }
+  90%{
+      background-image: url(/images/12.jpg);
+  }
+  100%{
+      background-image: url(/images/13.jpg);
+  }
+  
+}
+
+
+}
+
+@media (max-width: 576px) {
+
+  .certificate-logo{
+    width: 359px;
+    height: 177px;
+  }
+
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+
+  .layout_padding {
+    padding: 110px 0;
+  }
+
+  .image-loop {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 33vh;
+    animation: animate 14s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+  0%{
+      background-image: url(/images/2.jpg);
+  }
+  30%{
+      background-image: url(/images/6.jpg);
+  }
+  50%{
+      background-image: url(/images/8.jpg);
+  }
+  70%{
+      background-image: url(/images/10.jpg);
+  }
+  80%{
+      background-image: url(/images/11.jpg);
+  }
+  90%{
+      background-image: url(/images/12.jpg);
+  }
+  100%{
+      background-image: url(/images/13.jpg);
+  }
+  
+}
+
+}
+
+@media (max-width: 480px) {
+
+  
+
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+  
+}
+
+@media (max-width: 486px) {
+
+  .navbar-brand span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .heading_container h2 {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 23px;
+    text-align: center;
+  }
+
+  .navbar-brand span {
+    font-weight: bold;
+    font-size: 11px;
+    color: #000000;
+  }
+  .logo{
+    width: 62px;
+  }
+
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .layout_padding {
+    padding: 110px 0;
+  }
+
+  .image-loop {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 34vh;
+    animation: animate 14s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+  0%{
+      background-image: url(/images/2.jpg);
+  }
+  30%{
+      background-image: url(/images/6.jpg);
+  }
+  50%{
+      background-image: url(/images/8.jpg);
+  }
+  70%{
+      background-image: url(/images/10.jpg);
+  }
+  80%{
+      background-image: url(/images/11.jpg);
+  }
+  90%{
+      background-image: url(/images/12.jpg);
+  }
+  100%{
+      background-image: url(/images/13.jpg);
+  }
+  
+}
+
+}
+
+@media (max-width: 393px) {
+  .heading_container h2 {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 22px;
+    text-align: center;
+  }
+
+  .layout_padding {
+    padding: 110px 0;
+  }
+
+  .image-loop {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 34vh;
+    animation: animate 14s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+  0%{
+      background-image: url(/images/2.jpg);
+  }
+  30%{
+      background-image: url(/images/6.jpg);
+  }
+  50%{
+      background-image: url(/images/8.jpg);
+  }
+  70%{
+      background-image: url(/images/10.jpg);
+  }
+  80%{
+      background-image: url(/images/11.jpg);
+  }
+  90%{
+      background-image: url(/images/12.jpg);
+  }
+  100%{
+      background-image: url(/images/13.jpg);
+  }
+  
+}
+
+}
+
+@media (max-width: 374px) {
+
+  .layout_padding {
+    padding: 110px 0;
+  }
+
+  .heading_container h2 {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 12px;
+    text-align: center;
+  }
+
+  .image-loop {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 33vh;
+    animation: animate 14s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+  0%{
+      background-image: url(/images/2.jpg);
+  }
+  30%{
+      background-image: url(/images/6.jpg);
+  }
+  50%{
+      background-image: url(/images/8.jpg);
+  }
+  70%{
+      background-image: url(/images/10.jpg);
+  }
+  80%{
+      background-image: url(/images/11.jpg);
+  }
+  90%{
+      background-image: url(/images/12.jpg);
+  }
+  100%{
+      background-image: url(/images/13.jpg);
+  }
+  
+}
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
