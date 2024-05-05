@@ -5,6 +5,12 @@
 }
 
 @media (max-width: 992px) {
+
+  .navbar-collapse {
+    z-index: 1;
+    background: rgb(220, 237, 238);
+    border-radius: 15px;
+  }
   /*aman*/
   .logo {
     width: 74px;
