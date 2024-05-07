@@ -6,6 +6,36 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+
+.card{
+  border: 0;
+}
+.text_h3{
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  
+}
+.text_h3 span{
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #0a97b0;
+}
+
+.our_product_img {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 412px;
+}
+
+.back-img {
+  background-image: url(/images/13.jpg);
+  width: 289px;
+  height: 208px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
 .service_section .box4 {
   background-image: url(/images/15.jpg);
   display: -webkit-box;
@@ -23,7 +53,7 @@ body {
   left: 0;
   top: 90px;
   width: 100%;
-  height: 70vh;
+  height: 78vh;
   animation: animate 14s ease-in-out infinite;
   background-size: cover;
 }
