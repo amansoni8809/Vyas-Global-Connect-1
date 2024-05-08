@@ -4,10 +4,18 @@
 @media (max-width: 1120px) {
 }
 
+@media (min-width: 992px) {
+  .our_product_img {
+    height: 170px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .our_product_img {
+    height: 225px;
+  }
+}
 @media (max-width: 992px) {
-
-  
-
   .navbar-collapse {
     z-index: 1;
     background: rgb(220, 237, 238);
@@ -47,11 +55,11 @@
     margin: 5px 0;
   }
 
-  .layout_padding {
-    padding: 330px 0;
-  }
-  .layout_padding.layout_padding_service{
+  .layout_padding.layout_padding_service {
     padding: 50px;
+  }
+  .layout_padding.layout_margin {
+    margin-top: 300px;
   }
 
   .image-loop {
@@ -64,29 +72,28 @@
     background-size: cover;
   }
 
-  @keyframes animate{
-    0%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg');
+  @keyframes animate {
+    0% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg");
     }
-    30%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg');
+    30% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg");
     }
-    50%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg');
+    50% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg");
     }
-    60%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg');
+    60% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg");
     }
-    70%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg');
+    70% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg");
     }
-    80%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg');
+    80% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg");
     }
-    100%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg');
+    100% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg");
     }
-    
   }
 }
 
@@ -112,8 +119,8 @@
     margin: 0;
   }
 
-  .layout_padding {
-    padding: 135px 0;
+  .layout_padding.layout_margin {
+    margin-top: 110px;
   }
 
   .image-loop {
@@ -126,29 +133,28 @@
     background-size: cover;
   }
 
-  @keyframes animate{
-    0%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg');
+  @keyframes animate {
+    0% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg");
     }
-    30%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg');
+    30% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg");
     }
-    50%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg');
+    50% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg");
     }
-    60%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg');
+    60% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg");
     }
-    70%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg');
+    70% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg");
     }
-    80%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg');
+    80% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg");
     }
-    100%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg');
+    100% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg");
     }
-    
   }
 }
 
@@ -182,9 +188,7 @@
     margin: 0 2.5px;
   }
 
-  .layout_padding {
-    padding: 135px 0;
-  }
+  
 
   .image-loop {
     position: absolute;
@@ -196,29 +200,28 @@
     background-size: cover;
   }
 
-  @keyframes animate{
-    0%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg');
+  @keyframes animate {
+    0% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg");
     }
-    30%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg');
+    30% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg");
     }
-    50%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg');
+    50% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg");
     }
-    60%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg');
+    60% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg");
     }
-    70%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg');
+    70% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg");
     }
-    80%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg');
+    80% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg");
     }
-    100%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg');
+    100% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg");
     }
-    
   }
 }
 
@@ -277,9 +280,9 @@
     margin-bottom: 15px;
   }
 
-  .layout_padding {
-    padding: 135px 0;
-  }
+  .layout_padding.layout_margin {
+    margin-top: 105px;
+}
 
   .image-loop {
     position: absolute;
@@ -291,29 +294,28 @@
     background-size: cover;
   }
 
-  @keyframes animate{
-    0%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg');
+  @keyframes animate {
+    0% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg");
     }
-    30%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg');
+    30% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg");
     }
-    50%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg');
+    50% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg");
     }
-    60%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg');
+    60% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg");
     }
-    70%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg');
+    70% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg");
     }
-    80%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg');
+    80% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg");
     }
-    100%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg');
+    100% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg");
     }
-    
   }
 }
 
@@ -326,9 +328,7 @@
     text-align: center;
   }
 
-  .layout_padding {
-    padding: 135px 0;
-  }
+  
 
   .image-loop {
     position: absolute;
@@ -366,9 +366,7 @@
 }
 
 @media (max-width: 374px) {
-  .layout_padding {
-    padding: 110px 0;
-  }
+  
 
   .heading_container h2 {
     position: relative;
@@ -388,29 +386,28 @@
     background-size: cover;
   }
 
-  @keyframes animate{
-    0%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg');
+  @keyframes animate {
+    0% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg");
     }
-    30%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg');
+    30% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg");
     }
-    50%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg');
+    50% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg");
     }
-    60%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg');
+    60% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg");
     }
-    70%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg');
+    70% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg");
     }
-    80%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg');
+    80% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg");
     }
-    100%{
-        background-image: url('https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg');
+    100% {
+      background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/13.jpg");
     }
-    
   }
 }
 

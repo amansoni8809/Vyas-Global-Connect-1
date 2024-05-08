@@ -21,13 +21,6 @@ body {
   color: #0a97b0;
 }
 
-.our_product_img {
-  display: flex;
-  justify-content: center;
-  margin-left: 20px;
-  margin-right: 412px;
-}
-
 .back-img {
   background-image: url(/images/13.jpg);
   width: 289px;
