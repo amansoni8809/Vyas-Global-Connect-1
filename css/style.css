@@ -7,15 +7,22 @@ body {
   overflow-x: hidden;
 }
 
-.card{
+.card {
   border: 0;
 }
-.text_h3{
+
+.outer-img-box {
+  border: 14px solid;
+  border-color: #f8f8f8;
+  margin-left: 20px;
+  box-shadow: 0 0px 8px;
+}
+
+.text_h3 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  
 }
-.text_h3 span{
+.text_h3 span {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #0a97b0;
@@ -86,10 +93,10 @@ body {
   transition: 1s;
 }
 .img-box {
-  width: 150px;
-  height: 150px;
+  /* width: 150px;
+  height: 150px; */
   background: #cee3e6;
-  margin: 0px 10px;
+  /* margin: 0px 10px; */
   transition: 1s;
 }
 .img-size:hover {
@@ -98,10 +105,11 @@ body {
 
 .certificate-logo {
   display: flex;
-  width: 106%;
+  width: 100%;
   padding: 10px;
   background: #ffffff;
   margin: 60px auto;
+  /* margin-left: -132px; */
   /* justify-content: center; */
   /* background-color: aliceblue; */
 }
@@ -131,9 +139,9 @@ body {
 }
 
 .heading_container {
-  display: -webkit-box;
+  /* display: -webkit-box; */
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -142,6 +150,7 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
 }
+
 
 .heading_container h2 {
   position: relative;
