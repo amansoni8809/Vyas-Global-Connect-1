@@ -299,9 +299,21 @@
     font-size: 18px;
     color: #000000;
   }
+  .certificate-logo {
+    overflow-x: auto;
+    overflow-y: auto;
+    
+  }
 }
 
 @media (max-width: 420px) {
+
+  .certificate-logo {
+    overflow-x: auto;
+    overflow-y: auto;
+    
+  }
+
   .heading_container h2 {
     position: relative;
     font-weight: bold;
