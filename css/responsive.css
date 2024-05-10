@@ -313,6 +313,10 @@
     overflow-y: auto;
     
   }
+  .certificate-logo {
+    width: 337px;
+    height: auto;
+}
 
   .heading_container h2 {
     position: relative;
@@ -380,6 +384,12 @@
 }
 
 @media (max-width: 393px) {
+
+  .certificate-logo {
+    width: 337px;
+    height: auto;
+}
+
   .img-size {
     width: 110px;
     height: 114px;
