@@ -195,7 +195,7 @@
   }
 
   .certificate-logo {
-    width: 337px;
+    width: 340px;
     height: 177px;
     
   }
@@ -369,8 +369,8 @@
 
 @media (max-width: 393px) {
   .img-size {
-    width: 110px;
-    height: 114px;
+    width: 112px;
+    height: 116px;
     padding: 18px;
     transition: 1s;
   }
@@ -420,8 +420,8 @@
 
 @media (max-width: 374px) {
   .img-size {
-    width: 110px;
-    height: 114px;
+    width: 112px;
+    height: 116px;
     padding: 18px;
     transition: 1s;
   }
