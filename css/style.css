@@ -6,6 +6,24 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+.contact-p {
+  font-size: 1.6rem;
+  font-family: "IBM-Plex-Sans-SemiBold";
+  margin-bottom: 0.2rem;
+  line-height: 100%;
+  margin-bottom: 0rem;
+}
+.phone-number {
+  font-family: "IBM-Plex-Sans-SemiBold";
+  color: #0a97b0;
+  line-height: 100%;
+  margin-bottom: 0rem;
+}
+.timings {
+  margin-top: .2rem;
+  font-size: 1.2rem;
+  line-height: 140%;
+}
 
 .card {
   border: 0;
@@ -62,19 +80,19 @@ body {
   0% {
     background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/2.jpg");
   }
-  30% {
+  16.66% {
     background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/6.jpg");
   }
-  50% {
+  33.33% {
     background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/8.jpg");
   }
-  60% {
+  50% {
     background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/10.jpg");
   }
-  70% {
+  66.66% {
     background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/11.jpg");
   }
-  80% {
+  83.33% {
     background-image: url("https://amansoni8809.github.io/Vyas-Global-Connect-1/images/12.jpg");
   }
   100% {
@@ -150,7 +168,6 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
 }
-
 
 .heading_container h2 {
   position: relative;
@@ -458,6 +475,10 @@ a:focus {
   position: unset;
 }
 
+.detail-box {
+  padding: 2rem;
+}
+
 .slider_section .detail-box {
   color: #04233b;
 }
@@ -597,6 +618,7 @@ a:focus {
 
 .about_section .img-box img {
   max-width: 100%;
+  width: 100%;
   position: relative;
   z-index: 2;
 }
