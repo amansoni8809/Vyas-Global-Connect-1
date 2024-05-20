@@ -150,6 +150,7 @@ body {
 
 .layout_padding {
   padding: 35px 0;
+  margin-top: 100px;
 }
 
 .layout_padding2 {
@@ -298,6 +299,9 @@ a:focus {
   background-color: #ffffff;
   padding: 15px 0;
   height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 .header_section .header_bottom .container-fluid {
@@ -886,6 +890,7 @@ a:focus {
 .contact_section {
   position: relative;
   padding-bottom: 90px;
+  margin-top: 100px;
 }
 
 .contact_section .heading_container {
