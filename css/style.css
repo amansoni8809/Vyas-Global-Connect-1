@@ -11,9 +11,9 @@ body {
   font-family: "IBM-Plex-Sans-SemiBold";
   margin-bottom: .2rem;
 }
-.phone-container{
-  /* line-height: 40%; */
-}
+/* .phone-container{
+  /* line-height: 40%; 
+} */
 .phone-number {
   font-family: "IBM-Plex-Sans-SemiBold";
   color: #0a97b0;
