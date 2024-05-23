@@ -22,7 +22,7 @@ body {
 }
 .timings {
   margin-top: .2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 65%;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .company-name{
   font-family: "IBM-Plex-Sans", Arial, Helvetica, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: normal;
   color: #000;
   -moz-font-feature-settings: normal;
