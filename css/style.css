@@ -6,6 +6,11 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+
+.google-map-icon{
+  
+}
+
 .porter-address {
   font-size: 1.6rem;
   font-family: "IBM-Plex-Sans-SemiBold";
