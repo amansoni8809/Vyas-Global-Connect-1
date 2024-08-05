@@ -7,12 +7,15 @@ body {
   overflow-x: hidden;
 }
 
-
+.sub-service {
+  display: none;
+  position: absolute;
+}
 
 .porter-address {
   font-size: 1.6rem;
   font-family: "IBM-Plex-Sans-SemiBold";
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 /* .phone-container{
   /* line-height: 40%; 
@@ -21,20 +24,18 @@ body {
   font-family: "IBM-Plex-Sans-SemiBold";
   color: #0a97b0;
   line-height: 10px;
-  
 }
 .timings {
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   font-size: 1rem;
   line-height: 65%;
 }
 
-
-.address-container{
+.address-container {
   margin-top: 1.5rem;
 }
 
-.company-name{
+.company-name {
   font-family: "IBM-Plex-Sans", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
@@ -1135,3 +1136,25 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.main-service:hover .sub-service {
+  display: block;
+}
+
+.service-container {
+  background-color: #beeef7;
+  display: grid;
+  height: 6rem;
+  width: 8rem;
+  padding: 1rem;
+  line-height: 2rem;
+}
+.service-container a {
+  text-decoration: none;
+  color: black;
+}
+/* 
+.nav-link:hover + .sub-service,
+.sub-service:hover {
+  display: block;
+} */
