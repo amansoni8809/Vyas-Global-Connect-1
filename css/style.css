@@ -7,11 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-.sub-service {
-  display: none;
-  position: absolute;
-}
-
 .porter-address {
   font-size: 1.6rem;
   font-family: "IBM-Plex-Sans-SemiBold";
@@ -1136,6 +1131,11 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.sub-service {
+  display: none;
+  position: absolute;
+}
 
 .main-service:hover .sub-service {
   display: block;
